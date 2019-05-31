@@ -1,0 +1,4 @@
+<form [formGroup]='form'>
+    <app-mydatepicker formControlName='date'></app-mydatepicker>
+    {{form.value | json}}
+</form>
